@@ -11,6 +11,12 @@ public class Catalog {
         this.originalCompany = originalCompany;
     }
 
+    public Catalog(Catalog catalog) {
+        this.sku = catalog.sku;
+        this.description = catalog.description;
+        this.originalCompany = catalog.originalCompany;
+    }
+
     public String getSKU() {
         return sku;
     }

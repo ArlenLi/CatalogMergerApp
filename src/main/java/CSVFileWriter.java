@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.util.List;
 
-public class CSVFileWriter {
+public class CSVFileWriter implements FileWriter {
     public void writeCatalogsToCSV(List<Catalog> catalogs, String path) throws IOException{
         File file = new File(path);
 

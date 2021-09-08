@@ -28,4 +28,8 @@ public class Catalog {
     public String getOriginalCompany() {
         return originalCompany;
     }
+
+    public String toString(){
+        return sku + "," + description + "," + originalCompany;
+    }
 }
